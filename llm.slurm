@@ -9,6 +9,7 @@
 #SBATCH --partition=normal_q                # Partition name
 #SBATCH --output=job_output_%j.out          # Standard output file (%j = job ID)
 #SBATCH --error=job_error_%j.err            # Standard error file
+#SBATCH --gres=gpu:1
 #######################################
 # CPU and Node Configuration          #
 #######################################
